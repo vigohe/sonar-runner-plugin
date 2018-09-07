@@ -93,12 +93,6 @@ func main() {
 			Value:  "js",
 		},
 		cli.StringFlag{
-			Name:   "profile",
-			Usage:  "Project profile",
-			EnvVar: "PLUGIN_PROFILE",
-			Value:  "node",
-		},
-		cli.StringFlag{
 			Name:   "encoding",
 			Usage:  "Project source encondig",
 			EnvVar: "PLUGIN_ENCODING",
@@ -142,7 +136,6 @@ func run(c *cli.Context) error {
 		Inclusions: c.String("inclusions"),
 		Exclusions: c.String("exclusions"),
 		Language:   c.String("language"),
-		Profile:    c.String("profile"),
 		Encoding:   c.String("encoding"),
 		LcovPath:   c.String("lcovpath"),
 		Debug:      c.Bool("debug"),

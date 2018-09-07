@@ -15,7 +15,6 @@ The following parameters are used to configure the plugin:
 * **inclusions** - Sonar project sources inclusions - sonar.inclusions property
 * **exclusions** - Sonar project sources exclusions - sonar.exclusions property
 * **language** - Sonar project language. Defaults to 'js' - sonar.language property
-* **profile** - Sonar project profile. Defaults to 'node' - sonar.profile property
 * **encoding** - Sonar project encoding. Defaults to 'UTF-8' - sonar.sourceEncoding property
 * **lcovpath** - Sonar project lcov coverage file. Defaults to 'test/coverage/reports/lcov.info' - sonar.javascript.lcov.reportPath property
 
